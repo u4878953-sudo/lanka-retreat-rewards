@@ -52,25 +52,25 @@ const HeroSection = () => {
           
           {/* Campaign Info Cards */}
           <div className="flex flex-wrap justify-center gap-4 mb-10 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <div className="glass-card rounded-xl px-6 py-4 flex items-center gap-3">
+            <div className="bg-card/95 backdrop-blur-md rounded-xl px-6 py-4 flex items-center gap-3 shadow-card">
               <Calendar className="w-5 h-5 text-gold" />
               <div className="text-left">
-                <p className="text-xs text-primary-foreground/60 uppercase tracking-wide">Promo Period</p>
-                <p className="text-sm text-primary-foreground font-semibold">1st Feb - 30th Apr 2026</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-wide">Promo Period</p>
+                <p className="text-sm text-foreground font-semibold">1st Feb - 30th Apr 2026</p>
               </div>
             </div>
-            <div className="glass-card rounded-xl px-6 py-4 flex items-center gap-3">
+            <div className="bg-card/95 backdrop-blur-md rounded-xl px-6 py-4 flex items-center gap-3 shadow-card">
               <Trophy className="w-5 h-5 text-gold" />
               <div className="text-left">
-                <p className="text-xs text-primary-foreground/60 uppercase tracking-wide">Grand Prize</p>
-                <p className="text-sm text-primary-foreground font-semibold">3N/4D Sri Lanka Trip</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-wide">Grand Prize</p>
+                <p className="text-sm text-foreground font-semibold">3N/4D Sri Lanka Trip</p>
               </div>
             </div>
-            <div className="glass-card rounded-xl px-6 py-4 flex items-center gap-3">
+            <div className="bg-card/95 backdrop-blur-md rounded-xl px-6 py-4 flex items-center gap-3 shadow-card">
               <Users className="w-5 h-5 text-gold" />
               <div className="text-left">
-                <p className="text-xs text-primary-foreground/60 uppercase tracking-wide">Winners</p>
-                <p className="text-sm text-primary-foreground font-semibold">Top 7 + Monthly Top 5</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-wide">Winners</p>
+                <p className="text-sm text-foreground font-semibold">Top 7 + Monthly Top 5</p>
               </div>
             </div>
           </div>
