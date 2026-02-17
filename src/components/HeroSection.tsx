@@ -32,7 +32,7 @@ const HeroSection = () => {
           <div className="flex-1"></div>
           <div className="flex-1">
             {/* Logo */}
-            <div className="mb-8 animate-fade-in-up flex justify-center">
+            <div className="mb-4 md:mb-8 animate-fade-in-up flex justify-center">
               <img src={bhaggoLogo} alt="Bhaggo" className="h-14" />
             </div>
             
