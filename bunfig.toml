@@ -1,0 +1,3 @@
+[install]
+# Disable frozen lockfile for Cloudflare compatibility
+frozen_lockfile = false
